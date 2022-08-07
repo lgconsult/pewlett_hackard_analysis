@@ -21,10 +21,10 @@ rt.emp_no,
 rt.first_name,
 rt.last_name,
 rt.title
-INTO actually_retiring
+--INTO actually_retiring
 FROM retire_title AS rt
 WHERE (rt.to_date = '9999-01-01')
-ORDER BY rt.emp_no;
+ORDER BY rt.emp_no DESC;
 
 SELECT * FROM actually_retiring
 
@@ -55,4 +55,7 @@ ON (e.emp_no = de.emp_no)
 INNER JOIN titles as ti
 ON (e.emp_no = ti.emp_no)
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no;
+
+DROP TABLE mentorship_elig
