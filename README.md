@@ -5,7 +5,7 @@ Our analysis was performed to determine the number of employees that are expecte
 
 ## Results
 - There will be 72,459 roles to fill in the coming years according to those that will be ready to retire in the next few years. 
-[head of chart showing all employees eligible for retirement](https://github.com/lgconsult/pewlett_hackard_analysis/blob/main/unique_titles.png)
+![head of chart showing all employees eligible for retirement](https://github.com/lgconsult/pewlett_hackard_analysis/blob/main/unique_titles.png)
 - Employees have held multiple roles in multiple departments, meaning they could provide mentorship in different deparments, rather than only the department they are currently in.
 ![Chart of different employee titles](https://github.com/lgconsult/pewlett_hackard_analysis/blob/main/retirement_titles.png)
 - There are 1550 staff eligible to mentor younger staff based on the retirement data. 
